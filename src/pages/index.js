@@ -1,5 +1,9 @@
 import React from "react"
+import Navbar from "../component/Navbar"
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+export default () => (
+  <div>
+    <Navbar />
+    <div>Hello world!</div>
+  </div>
+)
