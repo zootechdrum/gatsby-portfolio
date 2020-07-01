@@ -1,24 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import logo from "../assets/logo.svg"
+import { FaAlignRight } from "react-icons/fa"
+import PageLinks from "../constants/links"
 const Navbar = () => {
-  return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blog/">Blog</Link>
-          </li>
-          <li>
-            <Link to="/products">Product</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  )
+  return <h2>navbar component</h2>
 }
 
 export default Navbar

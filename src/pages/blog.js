@@ -1,12 +1,11 @@
 import React from "react"
-import { layout } from "../components/Layout.js"
+import Layout from "../components/Layout"
+import { graphql } from "gatsby"
+import Blogs from "../components/Blogs"
+// ...GatsbyImageSharpFluid
 
-const blog = () => {
-  return (
-    <layout>
-      <h1>This is our blog page!</h1>
-    </layout>
-  )
+const Blog = () => {
+  return <h2>blog page</h2>
 }
 
-export default blog
+export default Blog
