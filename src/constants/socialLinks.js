@@ -1,6 +1,7 @@
 import React from "react"
 import { FaFacebookSquare, FaLinkedin, GoMarkGithub } from "react-icons/fa"
 
+//Source that displays all social links menu on web page.
 const data = [
   {
     id: 1,
