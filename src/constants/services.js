@@ -1,5 +1,5 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaBook, FaAndroid } from "react-icons/fa"
 export default [
   {
     id: 1,
@@ -9,8 +9,8 @@ export default [
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
+    icon: <FaBook className="service-icon" />,
+    title: "Web development Tutor",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
   {

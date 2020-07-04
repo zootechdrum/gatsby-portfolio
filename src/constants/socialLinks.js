@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaGithub className="social-icon"></FaGithubgit>,
+    icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://github.com/zootechdrum",
   },
 ]
