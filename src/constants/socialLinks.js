@@ -1,5 +1,5 @@
 import React from "react"
-import { FaFacebookSquare, FaLinkedin, GoMarkGithub } from "react-icons/fa"
+import { FaFacebookSquare, FaLinkedin, FaGithub } from "react-icons/fa"
 
 //Source that displays all social links menu on web page.
 const data = [
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 3,
-    icon: <GoMarkGithub className="social-icon"></GoMarkGithub>,
+    icon: <FaGithub className="social-icon"></FaGithubgit>,
     url: "https://github.com/zootechdrum",
   },
 ]
