@@ -25,10 +25,19 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="section-center hero-center">
-        <article classNam="hero-info"></article>
+        <article classNam="hero-info">
+          <div>
+            <div className="underline"></div>
+            <h1>i'm Cesar</h1>
+            <h4>web developer</h4>
+            <Link to="/contact" className="btn">
+              contact me
+            </Link>
+            <SocialLinks />
+          </div>
+        </article>
         <Image fluid={fluid} className="hero-img" />
       </div>
-      hero component
     </header>
   )
 }
