@@ -14,6 +14,14 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
             return <span key={item.id}>{item.title}</span>
           })}
         </div>
+        <div className="project-links">
+          <a href={github}>
+            <FaGithubSquare className="project-icon" />
+          </a>
+          <a href={url}>
+            <FaShareSquare className="project-icon" />
+          </a>
+        </div>
       </div>
     </article>
   )
