@@ -12,26 +12,21 @@ const data = [
     text: "about",
     url: "/about/",
   },
-  {
-    id: 3,
-    text: "projects",
-    url: "/projects/",
-  },
 
   {
-    id: 4,
+    id: 3,
     text: "contact",
     url: "/contact/",
   },
   {
-    id: 5,
+    id: 4,
     text: "Resume",
     url: { Resume },
   },
 ]
 
 const tempLinks = data.map(link => {
-  return link.id === 5 ? (
+  return link.id === 4 ? (
     <li key={link.id}>
       <a href={Resume}>Resume</a>
     </li>

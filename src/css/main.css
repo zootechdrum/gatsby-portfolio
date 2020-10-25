@@ -166,7 +166,7 @@ p {
 }
 @media screen and (min-width: 992px) {
   .section-center {
-    width: 95vw;
+    width: 85vw;
   }
 }
 /* added during recording */
@@ -464,7 +464,7 @@ Hero
   .hero-img {
     display: block;
     grid-row: 1/1;
-    grid-column: 6/-1;
+    grid-column: 7/-1;
     width: 60%;
   }
 }
@@ -934,7 +934,7 @@ About Page
     column-gap: 4rem;
   }
   .about-img {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 4;
     margin-bottom: 0;
   }
   .about-text {
